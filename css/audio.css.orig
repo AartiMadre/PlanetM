@@ -1,0 +1,157 @@
+body {
+<<<<<<< HEAD
+    background-image: url("../images/img2.jfif"); 
+
+  }
+  
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #1abc9c;
+  text-align: center;
+  font-size: 20px;
+=======
+    background-color: white;
+  
+
+  }
+
+.header {
+  padding: 5px;
+  text-align: left;
+  background: #1abc9c;
+  
+  font-size: 30px;
+>>>>>>> 403bd35f6a8d37f32544d02fcf49a5e1b1097593
+
+color:"Black";
+}
+
+  
+  .p {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .det {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+  .tr-art {
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 15%;
+  }
+  
+  
+  .tr-name {
+    font-size: 3rem;
+  }
+  
+  .tr-artist {
+    font-size: 1.5rem;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .playpause-track, .prev-track, .next-track {
+    padding: 25px;
+    opacity: 0.8;
+    transition: opacity .2s;
+  }
+  
+  .playpause-track:hover, .prev-track:hover, .next-track:hover {
+    opacity: 1.0;
+  }
+  
+  .sl_container {
+    width: 75%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 403bd35f6a8d37f32544d02fcf49a5e1b1097593
+  }
+   .seek_sli, .vol_sli {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: black;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+ 
+  .seek_sli::-webkit-slider-thumb, .vol_sli::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .seek_sli:hover, .vol_sli:hover {
+    opacity: 1.0;
+  }
+  
+  .seek_sli {
+    width: 60%;
+  }
+  
+  .vol_sli {
+    width: 30%;
+  }
+  
+  .current-time, .total-duration {
+    padding: 10px;
+  }
+  
+  i.fa-volume-down, i.fa-volume-up {
+    padding: 10px;
+  }
+  
+  i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
+    cursor: pointer;
+<<<<<<< HEAD
+  }
+
+  .main{
+   margin-left:20%;
+    position: relative;
+    min-height: 80vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url("../images/bgimage.jpg");
+    border-radius: 8px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+     inset -5px -5px 15px rgba(255,255,255,0.1),
+     5px 5px 15px rgba(0,0,0,0.3),
+     -5px -5px 15px rgba(255,255,255,0.1);
+    
+=======
+>>>>>>> 403bd35f6a8d37f32544d02fcf49a5e1b1097593
+  }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="../css/MusicLibrary.css">
+    <link rel="stylsheet" href="../bootstrap_k/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="../bootstrap_k/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../jquery/scripts/jquery.js"></script>
+    <script type="text/javascript" src="../jquery/scripts/MusicLibrary.js"></script>
+    <title>Music Library</title>
+</head>
+
+    
+<body>
+  
+<div class="aside">
+  <div class="search-container">
+    <form action="#"></form>
+        <input type="text" placeholder="Search Music" name="search" class="search">
+        <button type="submit"><span class="fa fa-search"></span></button>
+    </form>
+  </div>
+  <h2>Welcome,</h2>
+  <h2 id="profile-name">Arjit Singh</h2>
+</div>
+
+<div class="main">
+  <h3>Recently played</h3>
+  <div class="row mb-5"> 
+    <div class="col-sm-8">
+      <div class="card">
+        <img src="../images/nayan.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hindi</h5>
+          <div class="text-center">
+           <button type="button" class="btn btn-outline-danger">Explore</button> </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  
+  <h3>Album Categories</h3>
+  <div class="row row-cols-sm-3 mb-5">
+
+    <div class="col">
+      <div class="card">
+        <img src="../images/Rock Music1.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rock Music</h5>
+          <div class="text-center">
+           <button type="button" class="btn btn-outline-danger" onclick="playCategory('Rock')">Explore</button> </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    <div class="col">
+      <div class="card">
+        <img src="../images/Classical Music.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Classical Music</h5>
+          <div class="text-center">
+
+          <button type="button" class="btn btn-outline-danger" onclick="playCategory('Classical')">Explore</button> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <img  src="../images/Jazz Music1.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jazz Music</h5>
+          <div class="text-center">
+
+          <button type="button" class="btn btn-outline-danger" onclick="playCategory('Jazz')">Explore</button> 
+
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  <h3>Albums</h3>
+  <div class="row row-cols-sm-3 mb-5 myalbum" >
+  </div>
+  
+  <h3>Artists</h3>
+  <div class="row row-cols-sm-3 artist">
+  </div>
+
+</div>
+
+</body>
+</html>

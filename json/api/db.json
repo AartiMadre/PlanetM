@@ -1,0 +1,240 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Aarti",
+      "contact": "1234567890",
+      "email": "aarti@abc.com",
+      "password": "12345678"
+    },
+    {
+      "id": "2",
+      "name": "abca",
+      "contact": "1234567890",
+      "email": "bc@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "21",
+      "name": "Rushikesh 12345",
+      "contact": "9852145678",
+      "email": "rushi@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "211",
+      "name": "priyanka",
+      "contact": "1234567894",
+      "email": "priya@gmail.com",
+      "password": "123456789"
+    }
+  ],
+  "images": [
+    {
+      "id": "1",
+      "name": "myimage",
+      "path": "../../images/img.jpg"
+    }
+  ],
+  "songs": [
+    {
+      "hindi": [
+        {
+          "name": "Lamborgini",
+          "artist": [
+            "Jassi Gill",
+            "Neha Kakkar"
+          ],
+          "image": "../../images/song.jfif",
+          "path": "../../songs/Lamborghini.mp3",
+          "album": "Lamborgini",
+          "category": "Rock"
+        },
+        {
+          "name": "Dynamite",
+          "artist": "BTS",
+          "image": "../../images/dynamite.jpg",
+          "path": "../../songs/Dynamite.mp3",
+          "album": "BTS",
+          "category": "Rock"
+        },
+        {
+          "name": "Nayan",
+          "artist": "Dhvani Bhanushali",
+          "image": "../../images/nayan.jfif",
+          "path": "../../songs/Nayan.mp3",
+          "album": "Nayan",
+          "category": "Rock"
+        },
+        {
+          "name": "Malhari",
+          "artist": "Vishal Dadlani",
+          "image": "../../images/malhari.jfif",
+          "path": "../../songs/Malhari.mp3",
+          "album": "Bajirao Mastani",
+          "category": "Bollywood"
+        },
+        {
+          "name": "Dewani Mastani",
+          "artist": "Shreya Ghoshal",
+          "image": "../../images/mastani.webp",
+          "path": "../../songs/Deewani Mastani.mp3",
+          "album": "Bajirao Mastani",
+          "category": "Bollywood"
+        },
+        {
+          "name": "Pinga",
+          "artist": "Shreya Ghoshal",
+          "image": "../../images/pinga.jfif",
+          "path": "../../songs/Pinga.mp3",
+          "album": "Bajirao Mastani",
+          "category": "Bollywood"
+        },
+        {
+          "name": "Gajanana",
+          "artist": "Sukhwinder Singh",
+          "image": "../../images/gajanana.jfif",
+          "path": "../../songs/Gajanana.mp3",
+          "album": "Bajirao Mastani",
+          "category": "Bollywood"
+        },
+        {
+          "name": "Subhanallah",
+          "artist": "Shreya Ghoshal",
+          "image": "../../images/subhanallah.jfif",
+          "path": "../../songs/Subhanallah.mp3",
+          "album": "Yeh Jawani Hai Deewani",
+          "category": "Bollywood"
+        },
+        {
+          "name": "Kabira",
+          "artist": "Shreya Ghoshal",
+          "image": "../../images/kabira.jfif",
+          "path": "../../songs/Kabira.mp3",
+          "album": "Yeh Jawani Hai Deewani",
+          "category": "Bollywood"
+        },
+        {
+          "name": "Balam Pichkari",
+          "artist": "Shreya Ghoshal",
+          "image": "../../images/balampichkari.jfif",
+          "path": "../../songs/Subhanallah.mp3",
+          "album": "Yeh Jawani Hai Deewani",
+          "category": "Bollywood"
+        }
+      ],
+      "marathi": [
+        {
+          "name": "Zingaat",
+          "artist": ["Ajay Gogavale", "Atul Gogavale"],
+          "image": "../../images/sairat.jfif",
+          "path": "../Songs/Zingaat.mp3",
+          "album":"Sairat",
+          "categories":"Rock"
+        },
+       
+        {
+          "name": "Bring It On",
+          "artist": "Ajay Gogavale",
+          "image": "../../images/jaudyanabalasaheb.jfif",
+          "path": "../Songs/Bring It On.mp3",
+          "album":"Jau Dya Na Balasaheb",
+          "categories":"Rock"
+        },
+       
+        {
+          "name": "Shree Ganeshay Dheemahi",
+          "artist": "Shankar Mahadevan",
+          "image": "../../images/ShreeGaneshayDheemahi.jfif",
+          "path": "../Songs/Shree Ganeshay Dheemahi.mp3",
+          "album":"Shree Ganeshay Dheemahi",
+          "categories":"Jazz"
+        },
+    
+        {
+          "name": "Man udhan varyache",
+          "artist": ["Ajay Gogavale", "Atul Gogavale"],
+          "image": "../../images/AgaBaiArechya.jfif",
+          "path": "../Songs/Man udhan varyache.mp3",
+          "album":"Aga Bai Arechya",
+          "categories":"Jazz"
+        },
+    
+    
+        {
+          "name": "Sur Niragas Ho",
+          "artist": "Shankar Mahadevan",
+          "image": "../../images/KatyarKaljatGhusli.jfif",
+          "path": "../Songs/Sur Niragas Ho.mp3",
+          "album":"Katyar Kaljat Ghusli",
+          "categories":" Classical"
+        },
+    
+        {
+          "name": "Man Mandira",
+          "artist": "Shankar Mahadevan",
+          "image": "../../images/KatyarKaljatGhusli.jfif",
+          "path": "../Songs/Man Mandira.mp3",
+          "album":"Katyar Kaljat Ghusli",
+          "categories":" Classical"
+        }
+      ],
+      "english": [
+        {
+          "name": "Basket Case",
+          "artist": "Green Day",
+          "image": "../../images/dookie.jfif",
+          "path": "../Songs/Basket Case.mp3",
+          "album":"Dookie",
+          "categories":"Rock"
+        },
+    
+        {
+          "name": "Here I Go Again",
+          "artist": "Whitesnake",
+          "image": "../../images/whitesnake.jfif",
+          "path": "../Songs/Here I Go Again.mp3",
+          "album":"Whitesnake",
+          "categories":"Rock"
+        },
+    
+        {
+          "name": "Wavin' Flag",
+          "artist": "KNAAN",
+          "image": "../../images/troubadour.jfif",
+          "path": "../Songs/Wavin' Flag.mp3",
+          "album":"Troubadour",
+          "categories":"Jazz"
+        },
+    
+        {
+          "name": "Cheap Thrills",
+          "artist": "Sia",
+          "image": "../../images/thisisacting.jfif",
+          "path": "../Songs/Cheap Thrills.mp3",
+          "album":"This is Acting",
+          "categories":"Jazz"
+        },
+    
+        {
+          "name": "Counting Stars",
+          "artist": "OneRepublic",
+          "image": "../../images/native.jfif",
+          "path": "../Songs/Counting Stars.mp3",
+          "album":"Native",
+          "categories":" Classical"
+        },
+    
+        {
+          "name": "Rolling in the Deep",
+          "artist": "Adele",
+          "image": "../../images/adele.jfif",
+          "path": "../Songs/Rolling in the Deep.mp3",
+          "album":"Adele",
+          "categories":" Classical"
+        }
+      
+      ]
+    }
+  ]
+}

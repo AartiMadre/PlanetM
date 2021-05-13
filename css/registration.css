@@ -1,0 +1,31 @@
+body {
+  background: url("../images/img2.jfif") fixed;
+  background-size: cover;
+}
+
+*[role="form"] {
+  max-width: 50%;
+  padding: 5%;
+  margin: 0 auto;
+  border-radius: 0.3em;
+  background-color: lightgray;
+}
+
+*[role="form"] h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  margin-top: 2%;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+#containerdiv {
+  margin-top: 2%;
+}
+
+img {
+  width: 30%;
+  margin-left: 35%;
+}

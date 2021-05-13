@@ -1,0 +1,55 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h3,h2 {
+  padding-top: 20px;
+}
+
+h2{
+  text-align: center;
+}
+.card-img-top {
+  height: 15vw;
+}
+
+.card-title {
+  text-align: center;
+  color: white;
+}
+
+.aside {
+  float: left;
+  margin-left: 15px;
+  width: 20%;
+  text-align: center;
+}
+
+.main {
+  border-left: 2px solid black;
+  float: left;
+  margin: 15px;
+  padding-left: 15px;
+  width: 75%;
+}
+
+.search-container {
+  text-align: center;
+  margin: 30px;
+}
+
+.search {
+  width: 80%;
+}
+.card {
+  background-color: black  !important;
+}
+ 
+ul {
+  list-style: none;
+}
+
+
+
+/*# sourceMappingURL=language_select.css.map */

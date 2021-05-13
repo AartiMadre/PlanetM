@@ -1,0 +1,40 @@
+img {
+    border-radius: 50%;
+  }
+
+.backgroundimg{
+    position:absolute;
+    background-image: url('../images/img2.jfif');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;  
+    background-position: center;
+    z-index: -2;
+    filter:blur(3px);
+}
+.nav{
+    margin-bottom: 5%;
+}
+p{
+    color: azure;
+    margin-left: 1%;
+}
+.userplaylist{
+    
+    float: right;
+}
+ul li {
+    color: azure;
+}
+th,td,h3,h2,label,button,i{
+    color: azure;
+}
+a{
+    color: rgb(16, 141, 16);
+}
+.modal-dialog{
+    background-color: transparent;
+}
+.modal-content{
+    background-color: transparent !important;
+}
